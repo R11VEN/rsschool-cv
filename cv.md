@@ -1,15 +1,15 @@
-rsschool-cv
+**rsschool-cv**
 *******************************
- Komarov Maksim
+Komarov Maksim
 ===============================
 
 Contact information:
 -------------------------------
 
-**Phone:** +38
-**E-mail:** ankavoloshina@gmail.com
-**GitHub:**
-**Discord:**
+* **Phone:** +375299249698
+* **E-mail:** b-raven@yandex.ru
+* **GitHub:**
+* **Discord:**
 
 About Me:
 ------------------------------
@@ -20,8 +20,7 @@ Skills:
 * HTML (Basic)
 * CSS (Basic)
 * JavaScript (Basic)
-* Git, GitHub (Basic)
-* VS Code
+* Git, GitHub, VS Code (Basic)
 
 Code example:
 ----------------------------
@@ -38,7 +37,7 @@ Code example:
 
 Courses:
 -------------------------
-RS School «JavaScript/Front-end. Stage 0» (Naw in progress)
+* RS School «JavaScript/Front-end. Stage 0» (Naw in progress)
 
 Languages:
 -------------------------
