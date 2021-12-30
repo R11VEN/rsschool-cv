@@ -1,0 +1,19 @@
+<p class="black-white">datalist</p>
+
+<style>
+@keyframes black-white {
+  0% {
+    color: black;
+  }
+  50% {
+    color:white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.black-white {
+  animation: black-white 2s infinite;
+}
+</style>
