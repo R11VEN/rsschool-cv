@@ -1,19 +1,151 @@
-<p class="black-white">datalist</p>
+* {
+  box-sizing: border-box;
+}
 
-<style>
-@keyframes black-white {
-  0% {
-    color: black;
-  }
-  50% {
-    color:white;
-  }
-  100% {
-    color: black;
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  font-size: 24px;
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 240);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+  text-decoration: none;
+  color: #0c26ac;
+  transition: color 0.5s;
+  font-size: 28px;
+} 
+
+.nav-link:hover {
+  color: #04cbfd;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
   }
 }
 
-.black-white {
-  animation: black-white 2s infinite;
+@media (max-width: 1024px) {
+  .nav-list {
+    display: block;
+    overflow: auto;
+  }
 }
-</style>
+
+.profile-section {
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+  padding: 40px 30px 30px;
+  border-bottom: 10px solid #d3bfa4;
+}
+
+.logo {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 25% 15%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.section-title-profile {
+display: flex;
+flex-direction: column;
+text-align: center;
+text-transform: uppercase;
+}
+
+.profile-title{
+  font-size: 38px;
+  color: #172980;
+  letter-spacing: 2px;
+}
+
+.profile-subtitle {
+  font-size: 28px;
+  color: #0c26ac;
+}
+
+.section-title {
+  padding-top: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #0c26ac;
+  letter-spacing: 2px;
+  width: calc(40% - 20px);
+  padding-bottom: 25px;
+  border-bottom: 2px solid #916d3f;
+}
+
+.code-example {
+  padding: 0;
+  margin: 0;
+}
+
+.main-header {
+  background-color: rgb(189, 189, 148);
+}
+
+.footer-main {
+  background-color: rgb(189, 189, 148);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rsschool {
+  width: 90px;
+  height: 35px;
+  opacity: 70%;
+}
+.rsschool:hover {
+  opacity: 100%;
+}
+
+.github {
+  width: 40px;
+  height: 35px;
+  opacity: 70%;
+}
+
+.github:hover {
+  opacity: 100%;
+}
