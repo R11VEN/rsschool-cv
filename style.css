@@ -134,22 +134,15 @@ text-transform: uppercase;
 .rsschool {
   width: 90px;
   height: 35px;
-  background-image: url("./logo-rsschool3.png");
-  background-size: contain;
-  background-repeat: no-repeat;
   opacity: 70%;
-
 }
 .rsschool:hover {
   opacity: 100%;
 }
 
 .github {
-  width: 90px;
+  width: 40px;
   height: 35px;
-  background-image: url("./github-logo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
   opacity: 70%;
 }
 
